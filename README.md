@@ -14,11 +14,9 @@ This project simulates a redundant network design using **HSRP (Hot Standby Rout
 ## 🖥️ Network Topology:
 - 🔁 Two Multilayer Switches running HSRP
 - 🔄 EtherChannel connection between switches (Port-channel2)
-- 🧱 Four VLANs:  
-  - VLAN 10 – Engineering  
-  - VLAN 20 – HR  
-  - VLAN 30 – Finance  
-  - VLAN 40 – Sales  
+- 🧱 Two VLANs:  
+  - VLAN 10 
+  - VLAN 20 
 - 🧑‍💻 Multiple End Devices in each VLAN
 - 🌐 IP address distribution via **DHCP pools** on the Switch
 
